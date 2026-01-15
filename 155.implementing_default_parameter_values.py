@@ -1,4 +1,4 @@
-def banner_text(text, screen_width):
+def banner_text(text, screen_width = 100):
     if len(text) > screen_width - 4:
         #print("EEK!!")
         #print("The text is too long to fit in the specified width.")
@@ -14,6 +14,5 @@ def banner_text(text, screen_width):
         print(output_string)
 
 
-banner_text("Hello everybody, I am happy to meet yo on this day!!!! Thank you !!!! ", 150)
-banner_text("*", 150)
-
+banner_text("Hello everybody, I am happy to meet yo on this day!!!! Thank you !!!! ")
+banner_text("*")
