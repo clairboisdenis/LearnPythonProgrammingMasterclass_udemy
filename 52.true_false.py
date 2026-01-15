@@ -1,4 +1,3 @@
-# Hello
 day = "Monday"
 temperature = 30
 raining = True
@@ -22,6 +21,3 @@ if (day == "Monday" and not temperature > 31) or not raining:
     print("Go swimming")
 else:
     print("Learn Python")
-
-
-
